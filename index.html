@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Askbootstrap">
+    <meta name="author" content="Askbootstrap">
+    <title>Manna 360</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="vendor/icons/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+
+    <link href="vendor/select2/css/select2-bootstrap.css" />
+    <link href="vendor/select2/css/select2.min.css" rel="stylesheet" />
+
+    <link href="css/osahan.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="modal fade login-modal-main" id="bd-example-modal">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="login-modal">
+                        <div class="row">
+                            <div class="col-lg-6 pad-right-0">
+                                <div class="login-modal-left">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pad-left-0">
+                                <button type="button" class="close close-top-right" data-dismiss="modal"
+                                    aria-label="Close">
+                                    <span aria-hidden="true"><i class="mdi mdi-close"></i></span>
+                                    <span class="sr-only">Close</span>
+                                </button>
+                                <form>
+                                    <div class="login-modal-right">
+
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="login" role="tabpanel">
+                                                <h5 class="heading-design-h5">Login to your account</h5>
+                                                <fieldset class="form-group">
+                                                    <label>Enter Email/Mobile number</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="+91 123 456 7890">
+                                                </fieldset>
+                                                <fieldset class="form-group">
+                                                    <label>Enter Password</label>
+                                                    <input type="password" class="form-control" placeholder="********">
+                                                </fieldset>
+                                                <fieldset class="form-group">
+                                                    <button type="submit"
+                                                        class="btn btn-lg btn-secondary btn-block">Enter to your
+                                                        account</button>
+                                                </fieldset>
+                                                <div class="login-with-sites text-center">
+                                                    <p>or Login with your social profile:</p>
+                                                    <button class="btn-facebook login-icons btn-lg"><i
+                                                            class="mdi mdi-facebook"></i> Facebook</button>
+                                                    <button class="btn-google login-icons btn-lg"><i
+                                                            class="mdi mdi-google"></i> Google</button>
+                                                    <button class="btn-twitter login-icons btn-lg"><i
+                                                            class="mdi mdi-twitter"></i> Twitter</button>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                        id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1">Remember
+                                                        me</label>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="register" role="tabpanel">
+                                                <h5 class="heading-design-h5">Register Now!</h5>
+                                                <fieldset class="form-group">
+                                                    <label>Enter Email/Mobile number</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="+91 123 456 7890">
+                                                </fieldset>
+                                                <fieldset class="form-group">
+                                                    <label>Enter Password</label>
+                                                    <input type="password" class="form-control" placeholder="********">
+                                                </fieldset>
+                                                <fieldset class="form-group">
+                                                    <label>Enter Confirm Password </label>
+                                                    <input type="password" class="form-control" placeholder="********">
+                                                </fieldset>
+                                                <fieldset class="form-group">
+                                                    <button type="submit"
+                                                        class="btn btn-lg btn-secondary btn-block">Create Your
+                                                        Account</button>
+                                                </fieldset>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                        id="customCheck2">
+                                                    <label class="custom-control-label" for="customCheck2">I Agree with
+                                                        <a href="#">Term and Conditions</a></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="text-center login-footer-tab">
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" data-toggle="tab" href="#login"
+                                                        role="tab"><i class="mdi mdi-lock"></i> LOGIN</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-toggle="tab" href="#register" role="tab"><i
+                                                            class="mdi mdi-pencil"></i> REGISTER</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-top  pt-2 pb-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center " style="color: white;">
+                    <a href="#" class="mb-0 text-white">
+                        <div class="my-2 my-lg-0 text-right">
+                            <ul class="list-inline main-nav-right">
+                                <li class="list-inline-item">
+                                    <h3 style="color: black;margin-right: 350px">Manna<strong
+                                            style="color: limegreen;">360</strong></h3>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" data-target="#bd-example-modal" data-toggle="modal" class="btn btn-link"
+                                        style="color: limegreen;"><i class="mdi mdi-account-circle"></i>
+                                        Login/Register</a>
+                                </li>
+                                <li class="list-inline-item cart-btn">
+                                    <a href="#" data-toggle="offcanvas" class="btn btn-link border-none"
+                                        style="color: limegreen;"><i class="mdi mdi-cart" style="color: limegreen;"></i>
+                                        My Bag <small class="cart-value">2</small></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light osahan-menu-2 pad-none-mobile">
+        <div class="container-fluid" style="background-color: lightgreen;">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 margin-auto">
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Brands
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#"></i> Krispy kreme</a>
+                            <a class="dropdown-item" href="#"></i> Tp Tea</a>
+                            <a class="dropdown-item" href="#"></i> Llaollao</a>
+                            <a class="dropdown-item" href="#"></i>108 Matcha Sara</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Occasions</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="offer-product">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-md-6">
+                    <a><img class="img-fluid" src="img/takeaway.jpg" alt="Takeaway logo" style="width: 5255px;"></a>
+                </div>
+                <div class="col-md-6">
+                    <a><img class="img-fluid" src="img/takeaway.jpg" alt="Takeaway logo"style="width: 5255px;"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding bg-white border-top">
+        <div class="text-center">
+            <h3>About Us</h3>
+        </div>
+        <div class="container text-center" style="padding: 50px;">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="feature-box bg-light">
+
+                        <h6><strong><b>Company Story</b></strong></h6>
+                        <p>Founded and headquartered in Singapore, Manna360 and AC Hesed was born out of our founder's
+                            love for food,travel,business and community.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="feature-box bg-light">
+                        <h6><strong><b>Vision</b></strong></h6>
+                        <p>To be a premier food company offering superior and unique sweet treats to people everywhere
+                            in Asia.food,travel,business and community.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="feature-box bg-light">
+                        <h6><strong><b>Mission</b></strong></h6>
+                        <p>To create moments of shared joy and inspiration through our brands and products, introduce
+                            new global treats,add value and enhance our communities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <h5 class="mb-3" style="text-align: center;"><b>Best Sellers</h5>
+    </div>
+    <div class="row no-gutters" style="margin-left: 300px;">
+        <div class="col-md-2">
+            <div class="product">
+                <a href="#">
+                    <div class="product-header">
+                        <img class="img-fluid" src="img/item/a.png" alt="">
+                    </div>
+                    <div class="product-body">
+                        <h5>Double Dozen</h5>
+                    </div>
+                    <div class="product-footer">
+                        <button type="button" class="btn btn-secondary btn-sm float-right"><i
+                                class="mdi mdi-cart-outline"></i> Add To Cart</button>
+                        <p class="offer-price mb-0">$150.99</i><br></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-2" style="margin-left: 20px;">
+            <div class="product">
+                <a href="#">
+                    <div class="product-header">
+                        <img class="img-fluid" src="img/item/b.png" alt="">
+                    </div>
+                    <div class="product-body">
+                        <h5>Dozen-Original</h5>
+                    </div>
+                    <div class="product-footer">
+                        <button type="button" class="btn btn-secondary btn-sm float-right"><i
+                                class="mdi mdi-cart-outline"></i> Add To Cart</button>
+                        <p class="offer-price mb-0">$45 </i><br></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-2" style="margin-left: 20px;">
+            <div class="product">
+                <a href="#">
+                    <div class="product-header">
+                        <img class="img-fluid" src="img/item/c.png" alt="">
+                    </div>
+                    <div class="product-body">
+                        <h5>Half Dozen Original</h5>
+                    </div>
+                    <div class="product-footer">
+                        <button type="button" class="btn btn-secondary btn-sm float-right"><i
+                                class="mdi mdi-cart-outline"></i> Add To Cart</button>
+                        <p class="offer-price mb-0">$45 </i><br></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-2" style="margin-left: 20px;">
+            <div class="product">
+                <a href="#">
+                    <div class="product-header">
+                        <img class="img-fluid" src="img/item/d.png" alt="">
+                    </div>
+                    <div class="product-body">
+                        <h5>KKSG</h5>
+                    </div>
+                    <div class="product-footer">
+                        <button type="button" class="btn btn-secondary btn-sm float-right"><i
+                                class="mdi mdi-cart-outline"></i> Add To Cart</button>
+                        <p class="offer-price mb-0">$45 </i><br></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h5 class="mb-3" style="text-align: center;"><b>Best Sellers</h5>
+    </div>
+    <div class="row no-gutters" style="margin-left: 300px;">
+        <div class="col-md-2" style="margin-left: 20px;">
+            <div class="product">
+                <a href="#">
+                    <div class="product-header">
+                        <img class="img-fluid" src="img/item/a1.png" alt="">
+                    </div>
+                    <div class="product-body">
+                        <h5>Brown Sugar Tea</h5>
+                    </div>
+                    <div class="product-footer">
+                        <button type="button" class="btn btn-secondary btn-sm float-right"><i
+                                class="mdi mdi-cart-outline"></i> Add To Cart</button>
+                        <p class="offer-price mb-0">$10.99</i><br></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-2" style="margin-left: 20px;">
+            <div class="product">
+                <a href="#">
+                    <div class="product-header">
+                        <img class="img-fluid" src="img/item/a2.png" alt="">
+                    </div>
+                    <div class="product-body">
+                        <h5>Brown Sugar Milk Tea</h5>
+                    </div>
+                    <div class="product-footer">
+                        <button type="button" class="btn btn-secondary btn-sm float-right"><i
+                                class="mdi mdi-cart-outline"></i> Add To Cart</button>
+                        <p class="offer-price mb-0">$15 </i><br></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-2" style="margin-left: 20px;">
+            <div class="product">
+                <a href="#">
+                    <div class="product-header">
+                        <img class="img-fluid" src="img/item/a3.png" alt="">
+                    </div>
+                    <div class="product-body">
+                        <h5>TGY Latte</h5>
+                    </div>
+                    <div class="product-footer">
+                        <button type="button" class="btn btn-secondary btn-sm float-right"><i
+                                class="mdi mdi-cart-outline"></i> Add To Cart</button>
+                        <p class="offer-price mb-0">$25 </i><br></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-2" style="margin-left: 20px;">
+            <div class="product">
+                <a href="#">
+                    <div class="product-header">
+                        <img class="img-fluid" src="img/item/a4.png" alt="">
+                    </div>
+                    <div class="product-body">
+                        <h5>Brown TGY Latte</h5>
+                    </div>
+                    <div class="product-footer">
+                        <button type="button" class="btn btn-secondary btn-sm float-right"><i
+                                class="mdi mdi-cart-outline"></i> Add To Cart</button>
+                        <p class="offer-price mb-0">$35 </i><br></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--  --><br />
+    <div class="row" style="background-color: lightcyan;">
+        <div class="column" style="margin-left: 235px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Magnam veniam reiciendis ipsam mollitia.
+            Nulla numquam rerum earum,<br /> qui consectetur<br /> libero aspernatur ex ea aut molestias quo porro quod?
+            Vitae, <br />quae.
+        </div>
+        <div class="column" style="width: 500px; margin-left:50px;">
+            <img
+                src="https://img.freepik.com/free-photo/delicious-vietnamese-food-including-pho-ga-noodles-spring-rolls-white-table_181624-34062.jpg?size=626&ext=jpg" />
+        </div>
+    </div>
+    <!--  -->
+    <div class="row" style="background-color: rgb(155, 228, 233); margin-top: 10px;">
+        <div class="column" style="width: 500px; margin-left:250px;">
+            <img
+                src="https://img.freepik.com/free-photo/delicious-vietnamese-food-including-pho-ga-noodles-spring-rolls-white-table_181624-34062.jpg?size=626&ext=jpg" />
+        </div>
+        <div class="column" style="margin-left:50px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Magnam veniam reiciendis ipsam mollitia.
+            Nulla numquam rerum earum,<br /> qui consectetur<br /> libero aspernatur ex ea aut molestias quo porro quod?
+            Vitae, <br />quae.
+        </div>
+    </div>
+    <!--  -->
+    <div>
+        <div class="row">
+            <div class="column" style="margin-left: 120px; margin-top: 120px;">
+                <h3>Order For Same Delivery</h3>
+            </div>
+            <div class="column">
+                <img src="https://image.shutterstock.com/image-vector/fast-delivery-truck-icon-shipping-260nw-1917921602.jpg"
+                    alt="Snow" style="width:100%" height="120px">
+            </div>
+            <div class="column">
+                <img src="https://image.shutterstock.com/image-vector/fast-delivery-truck-icon-shipping-260nw-1917921602.jpg"
+                    alt="Snow" style="width:100%" height="120px">
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div style="background-color: lightgreen;">
+        <div class="subscribe">
+            <h2 class="subscribe__title" style="text-align: center;">Keep In Touch</h2>
+            <div class="form" style="margin-left: 400px;">
+                <input type="email" class="form__email" placeholder="Enter your email address" />
+                <button class="form__button">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <section class="section-padding footer bg-white border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <!-- <h4 class="mb-3 mt-0"><a class="logo" href="index.html"><img src="img/logo-footer1.png"
+                                alt="Manna360"></a></h4> -->
+                    <h5 class="text-dark"><b>Manna</b><span class="text-success">360</h5>
+                    <div class="footer-social">
+                        <a class="btn-facebook" href="#"><i class="mdi mdi-facebook"></i></a>
+                        <a class="btn-twitter" href="#"><i class="mdi mdi-twitter"></i></a>
+                        <a class="btn-instagram" href="#"><i class="mdi mdi-instagram"></i></a>
+                        <a class="btn-whatsapp" href="#"><i class="mdi mdi-whatsapp"></i></a>
+                        <a class="btn-messenger" href="#"><i class="mdi mdi-facebook-messenger"></i></a>
+                        <a class="btn-google" href="#"><i class="mdi mdi-google"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 text-left">
+                    <h6 class="mb-2">Manna 360 Pte Ltd </h6>
+                    <p>230 Pandan Loop #04-01 Lim Chee Guan Food Industries Building Singapore 128415</p>
+                    <p>enquiries@manna360.com.sg</p>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <h6 class="mb-2">Company</h6>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <ul>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <h6 class="mb-2">Orders</h6>
+                    <ul>
+                        <li><a href="#">Krispy Kreme</a></li>
+                        <li><a href="#">TP Tea</a></li>
+                        <li><a href="#">Occasions</a></li>
+                        <li><a href="#">Carporate Orders</a></li>
+                        <ul>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <h6 class="mb-2">Customer Services</h6>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Delivery Info</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-4 pb-4 footer-bottom">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-sm-6">
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-6 text-right">
+                    <h6 class="text-center">We Accept</h6>
+                    <img alt="Manna360 logo" src="img/payment_methods.png">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
